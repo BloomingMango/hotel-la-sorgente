@@ -1,0 +1,446 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+/* intestazione */
+.ul_intestazione{
+    background-color: #3C7AC0;
+    list-style-type: none;
+    margin: 0;	
+    height: 100px;
+}
+li{
+    float:left;
+    line-height: 100px;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 550;
+    z-index: 2;
+}
+.li_intestazione a{
+    padding: 0px 19px 0px 19px;
+    color:whitesmoke;
+}
+/* menù a tendina */
+.dropbtn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: none;
+    letter-spacing: 2px;
+    font-weight: 550;
+    font-size: 16;
+    cursor:pointer;
+    padding: 39px 0px 15px 0px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown_content a{
+    color:black;
+    padding: 12px 16px;
+    float: inline-start;
+    display: block;
+    min-width: 110px;
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #e9ecefd1;
+    border-radius: 10px;
+    line-height: normal;
+    font-size: 13;
+    width: 220px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+    z-index: 3;
+}
+.dropdown_content_column{
+    display: none;
+    position: absolute;
+    background-color: #e9ecefd1;
+    border-radius: 10px;
+    line-height: normal;
+    font-size: 13;
+    width: 300px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+    z-index: 3;
+    columns: 2;
+    column-gap: 17px;
+}
+.dropdown_content_column a{
+    color:black;
+    padding: 12px 16px;
+    float: inline-start;
+    display: block;
+    min-width: 110px;
+}
+.dropdown_content_column span{
+    color:black;
+    padding: 12px 16px;
+    float: inline-start;
+    display: block;
+    min-width: 110px;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+.dropdown:hover .dropdown_content_column {
+    display: block;
+}
+.dropdown_content a:hover {
+    background-color: #ced4daec;
+    border-radius: 10px;
+    width: 188px;
+}
+.dropdown_content_column a:hover {
+    background-color: #ced4daec;
+    border-radius: 10px;
+}
+/* piè di pagina */
+div button{
+	border:0;
+	background-color: #dee2e6;
+}
+/* fondo */
+.fondo{
+    position: absolute;
+    left:0;
+    top: 1800px;
+    width: 100%;
+    height:300px;
+    background-color: #dee2e6;    
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #3C7AC0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    z-index: 2;
+}
+.fondo_chi_siamo{
+    position: absolute;
+    left:0;
+    top: 2200px;
+    width: 100%;
+    height:300px;
+    background-color: #dee2e6;    
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #3C7AC0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    z-index: 2;
+}
+.fondo_spa{
+    position: absolute;
+    left:0;
+    top: 1500px;
+    width: 100%;
+    height:300px;
+    background-color: #dee2e6;    
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #3C7AC0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    z-index: 2;
+}
+.fondo_arr{
+    position: absolute;
+    left:0;
+    top: 1100px;
+    width: 100%;
+    height:300px;
+    background-color: #dee2e6;    
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #3C7AC0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    z-index: 2;
+}
+.fondo_camere{
+    position: absolute;
+    left:0;
+    top: 1150px;
+    width: 100%;
+    height:300px;
+    background-color: #dee2e6;    
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #3C7AC0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    z-index: 2;
+}
+/* in comune */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+.striscia {
+    background-color: #e9ecef;
+    text-align: center;
+    width: 40%;
+    height: 1800px;
+    position: absolute;
+    right: 30%;
+    z-index: -1;
+}
+.striscia_spa {
+    background-color: #e9ecef;
+    text-align: center;
+    width: 40%;
+    height: 1550px;
+    position: absolute;
+    right: 30%;
+    z-index: -1;
+}
+.striscia_arr {
+    background-color: #e9ecef;
+    text-align: center;
+    width: 40%;
+    height: 1150px;
+    position: absolute;
+    right: 30%;
+    z-index: -1;
+}
+.striscia_chi_siamo {
+    background-color: #e9ecef;
+    text-align: center;
+    width: 40%;
+    height: 2250px;
+    position: absolute;
+    right: 30%;
+    z-index: -1;
+}
+.striscia_camere {
+    background-color: #e9ecef;
+    text-align: center;
+    width: 40%;
+    height: 1200px;
+    position: absolute;
+    right: 30%;
+    z-index: -1;
+}
+.title{
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    right: 15%;
+    top: 120px;
+}
+.testo_iniziale{
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    right: 15%;
+    top: 500px;
+}
+.photo1{
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+}
+/* div per elenco */
+.div_part1{
+    position: absolute;
+    border: 5px solid white;
+    width: 39.5%;
+    height: 150px;
+    background-color: #e9ecef;
+    top: 800px;
+    left: 7%;
+}
+.div_part2{
+    position: absolute;
+    border: 5px solid white;
+    width: 39.5%;
+    height: 150px;
+    background-color: #e9ecef;
+    top: 950px;
+    right: 7%;
+}
+.div_part3{
+    position: absolute;
+    border: 5px solid white;
+    width: 39.5%;
+    height: 150px;
+    background-color: #e9ecef;
+    top: 1100px;
+    left: 7%;
+}
+.div_part4{
+    position: absolute;
+    border: 5px solid white;
+    width: 39.5%;
+    height: 150px;
+    background-color: #e9ecef;
+    top: 1250px;
+    right: 7%;
+}
+.div_part5{
+    position: absolute;
+    border: 5px solid white;
+    width: 39.5%;
+    height: 150px;
+    background-color: #e9ecef;
+    top: 1400px;
+    left: 7%;
+}
+.div_part6{
+    position: absolute;
+    border: 5px solid white;
+    width: 39.5%;
+    height: 150px;
+    background-color: #e9ecef;
+    top: 1550px;
+    right: 7%;
+}
+/* div i vari tipi tipi di sottopagine */
+.ul_text{
+    list-style-type: none;
+    margin: 0;	
+    height: 150px;
+    display: inline;
+}
+.li_text{
+    position: absolute;
+    top:0px;
+    left:150px;
+    right: 0px;
+    color: black;
+    vertical-align: top;
+}
+.li_title{
+    position: relative;
+    top: 0px;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20;
+    font-weight: 700;
+    text-align: center;
+}
+.li_subtitle{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    font-size: 12;
+    line-height: normal;
+    font-weight: 500;
+}
+.li_dettagli{
+    position: relative;
+    top:10px;
+    width: 100%;
+}
+.li_dettagli button{
+    position: relative;
+    cursor: pointer;
+    width: 40%;
+    height: 35px;
+    left: 30%;
+    background-color: #3c7ac0c5;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.li_dettagli_e{
+    position: relative;
+    top:10px;
+    width: 100%;
+}
+.li_dettagli_e button{
+    position: relative;
+    cursor: pointer;
+    width: 40%;
+    height: 35px;
+    left: 30%;
+    background-color: #73a942;
+    color: white;
+    letter-spacing: 1.5px;
+}
+/* div sottopagine */
+.div_immagini{
+    position: absolute;
+    text-align: center;
+    top:700px;
+    width: 100%;
+}
+.div_immagini_gym{
+    position: absolute;
+    top:800px;
+    width: 100%;
+}
+.div_immagini_spa{
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+}
+/* contatti */
+.contatti {
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    right: 15%;
+    top: 200px;
+}
+/* chi siamo */
+.chi_siamo{
+    position: absolute;
+    text-align: center;
+    line-height: 1.5;
+    width: 70%;
+    right: 15%;
+    top: 750px;
+}
+.chi_siamo li{
+    line-height: 1.5;
+}
+/* home */
+.home{
+    position: absolute;
+    text-align: center;
+    line-height: 1.5;
+    width: 70%;
+    right: 15%;
+    top: 750px;
+}
+.home li{
+    text-align: center;
+    line-height: 2;
+    list-style-type: square;
+    clear:both;
+}
+.map{
+    position: absolute;
+    margin-top: 950px;
+    width: 95%;
+    margin-left: 2%;
+}
+.div_part1:hover{
+    border: 10px solid white;
+}
+.div_part2:hover{
+    border: 10px solid white;
+}
+.div_part3:hover{
+    border: 10px solid white;
+}
+.div_part4:hover{
+    border: 10px solid white;
+}
+.div_part5:hover{
+    border: 10px solid white;
+}
+.div_part6:hover{
+    border: 10px solid white;
+}
